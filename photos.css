@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+body {
+    background-color: white;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.shell {
+
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.innerShell {
+    background-color: blueviolet;
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 175px;
+    background-image: url("./images/cam.avif");
+    background-size: cover;
+    border-radius: 200px;
+
+
+}
+
+.coreShell {
+    height: 225px;
+    width: 225px;
+
+
+}
+
+#life a:link {
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    height: 175px;
+    margin-top: 30px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+    text-shadow: 1px .5px white;
+
+}
