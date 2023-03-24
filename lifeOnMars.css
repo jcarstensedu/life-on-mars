@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+.wrapper {}
+
+.adventure {
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'major mono display';
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.img1 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 387.2px;
+    height: 259.2px;
+}
+
+.img2 {
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 387.2px;
+    height: 259.2px;
+}
+
+.img3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 387.2px;
+    height: 259.2px;
+
+    /* box-shadow: 0px 0px 10px 2px rgb(249, 250, 251); */
+
+}
+
+.box1 {}
+
+.box2 {
+    padding-top: 220px;
+    text-align: center;
+
+}
+
+.box3 {}
