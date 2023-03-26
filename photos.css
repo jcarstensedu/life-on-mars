@@ -5,6 +5,59 @@ body {
     background-color: ;
 }
 
+ul {
+    position: relative;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: "Major Mono Display";
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+.prints {
+    margin-left: 525px
+}
+
+
+.active {
+    background-color: #003399;
+}
+
+.page-head {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Major Mono Display';
+}
+
+.page-head-text {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 375px;
+    z-index: 1;
+}
+
 .head-background {
     background-color: black;
     height: 100%;
@@ -68,12 +121,12 @@ p {
     line-height: 29px;
 }
 
-.navagation {
+.colloms {
     height: 100%;
     width: 100%;
 }
 
-.navagation-head {
+.colloms-head {
     display: flex;
     height: 100%;
 }
@@ -132,4 +185,56 @@ img {
     width: 33.33%;
     font-family: 'Titillium Web';
     font-size: xx-large;
+}
+
+.content {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.content-body {
+    padding-top: 30px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.content-left {
+    height: 90px;
+    width: 33.33%;
+    font-family: 'Titillium Web';
+    font-size: medium;
+}
+
+.content-middle {
+    height: 90px;
+    width: 33.33%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Titillium Web';
+    font-size: medium;
+}
+
+.content-right {
+    height: 90px;
+    width: 33.33%;
+    font-family: 'Titillium Web';
+    font-size: medium;
+}
+
+.image-middle {
+    background-color: antiquewhite;
+    height: 275px;
+    width: 400px;
+    margin-bottom: 0px;
+}
+
+.image-inbed {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: antiquewhite;
+    background-image: url("./spoke/DSC02378.JPG");
+    background-size: cover;
 }
