@@ -1,58 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 
 body {
     -webkit-font-smoothing: antialiased;
-    background-color: #212323;
-    color: #dfeae9;
-    font-family: "Titillium Web";
+    background-color: black;
+    color: rgba(144, 144, 144, 0.721);
+    font-family: "Montserrat";
+    font-weight: 300;
     font-size: 14px;
     line-height: 1.6;
     margin: 5px;
 }
 
-ul {
-    position: relative;
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #212323;
-    font-family: "Titillium Web";
-    border-bottom: 1px solid white;
+h3 {
+    font-size: 20px;
+    padding-left: 60px;
+    padding-bottom: 3px;
+
 }
 
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
+.fa {
+    margin-left: 55px;
+    padding: .5px;
+    font-size: 15px;
+    width: 15px;
     text-align: center;
-    padding: 10px 15px;
     text-decoration: none;
+    float: top right;
+    color: rgba(144, 144, 144, 0.721);
 }
 
-li a:hover {
-    background-color: #212;
+.fa:hover {
+    opacity: 0.7;
+    transform: rotate(180deg);
+
 }
 
-.prints {
-    margin-left: 875px
+a:link {
+    text-decoration: none;
+    color: white;
 }
 
-.logo {
-    font-size: 35px;
+a:visited {
+    color: white
 }
-
 
 .container {
     display: flex;
     width: 100%;
-    padding: 4% 2%;
+    padding: 30px;
     box-sizing: border-box;
     height: 100vh;
 
@@ -64,7 +62,6 @@ li a:hover {
     overflow: hidden;
     transition: .5s;
     margin: 0 2%;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
     line-height: 0;
     position: relative;
 }
@@ -90,7 +87,7 @@ li a:hover {
 }
 
 .box:hover {
-    flex: 1 1 10%;
+    flex: 1 1 30%;
 }
 
 .box:hover>img {
@@ -105,8 +102,4 @@ li a:hover {
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
-    background-color: black;
 }
