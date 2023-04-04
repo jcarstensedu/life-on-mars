@@ -14,12 +14,14 @@ body {
     margin: 5px;
 }
 
-h3 {
+.homePage h3 {
     font-size: 20px;
     padding-left: 60px;
     padding-bottom: 3px;
-
+    color: rgba(144, 144, 144, 0.721);
+    font-weight: 600;
 }
+
 
 .fa {
     margin-left: 55px;
@@ -102,4 +104,26 @@ a:visited {
 * {
     margin: 0;
     padding: 0;
+}
+
+@media only screen and (max-width:769px) {
+    .container .box {
+        flex-direction: column;
+    }
+
+    .container .box .dream {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width:643px) {
+    .container .heading {
+        width: 100%
+    }
+
+    .container .heading h3 {
+        font-size: 1em;
+    }
 }
