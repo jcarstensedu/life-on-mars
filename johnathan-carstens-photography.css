@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
-
 body {
     -webkit-font-smoothing: antialiased;
     background-color: black;
@@ -12,6 +11,16 @@ body {
     font-size: 14px;
     line-height: 1.6;
     margin: 5px;
+}
+
+.page-nav-box a {
+    position: relative;
+    float: right;
+    padding: 10px;
+    bottom: 110px;
+    margin-left: 10px;
+    font-family: 'Montserrat';
+    color: rgba(144, 144, 144, 0.721);
 }
 
 .home-box {
@@ -57,9 +66,13 @@ a:visited {
     color: white
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .container {
-
     display: flex;
     width: 100%;
     padding: 30px;
