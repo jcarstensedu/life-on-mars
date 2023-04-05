@@ -13,18 +13,36 @@ body {
     margin: 5px;
 }
 
+.page-nav-box a {
+    position: relative;
+    float: right;
+    padding: 10px;
+    bottom: 110px;
+    margin-left: 10px;
+    font-family: 'Montserrat';
+    color: rgba(144, 144, 144, 0.721);
+}
+
+.home-box {
+    width: fit-content;
+}
+
 .homePage h3 {
     font-size: 20px;
-    padding-left: 60px;
+    padding-left: 20px;
     padding-bottom: 15px;
     color: rgba(144, 144, 144, 0.721);
     font-weight: 600;
     font-family: 'Montserrat';
 }
 
+.social-box {
+    width: fit-content;
+    padding-left: 20px;
+}
 
 .fa {
-    margin-left: 55px;
+    margin-right: 20px;
     padding: .5px;
     font-size: 15px;
     width: 15px;
@@ -37,7 +55,6 @@ body {
 .fa:hover {
     opacity: 0.7;
     transform: rotate(180deg);
-
 }
 
 a:link {
@@ -56,16 +73,19 @@ a:visited {
 }
 
 .container {
+    width: 100%;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 40px 20px 0 20px;
+    margin: 40px px 0 20px;
+
 }
 
 .container .heading {
-    width: 50%;
+    width: 45%;
     padding-bottom: 50px;
 }
 
@@ -76,6 +96,7 @@ a:visited {
     color: rgba(144, 144, 144, 0.721);
     border-bottom: 3px solid white;
     padding-bottom: 12px;
+
 }
 
 .container .heading h3 span {
@@ -96,6 +117,7 @@ a:visited {
 .text-container {
     float: right;
     padding-top: 15px;
+    margin-right: 10px;
     width: 53%;
     height: auto;
     position: relative;

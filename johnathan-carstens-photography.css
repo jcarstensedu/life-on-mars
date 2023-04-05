@@ -14,17 +14,26 @@ body {
     margin: 5px;
 }
 
-.homePage h3 {
-    font-size: 20px;
-    padding-left: 60px;
-    padding-bottom: 3px;
-    color: rgba(144, 144, 144, 0.721);
-    font-weight: 600;
+.home-box {
+    width: fit-content;
 }
 
+.homePage h3 {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    color: rgba(144, 144, 144, 0.721);
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+.social-box {
+    width: fit-content;
+    padding-left: 20px;
+}
 
 .fa {
-    margin-left: 55px;
+    margin-right: 20px;
     padding: .5px;
     font-size: 15px;
     width: 15px;
@@ -37,7 +46,6 @@ body {
 .fa:hover {
     opacity: 0.7;
     transform: rotate(180deg);
-
 }
 
 a:link {
@@ -49,12 +57,14 @@ a:visited {
     color: white
 }
 
+
 .container {
+
     display: flex;
     width: 100%;
     padding: 30px;
     box-sizing: border-box;
-    height: 100vh;
+    height: 85vh;
 
 }
 
@@ -62,17 +72,17 @@ a:visited {
     display: flex;
     flex: 1;
     overflow: hidden;
-    transition: .5s;
-    margin: 0 2%;
-    line-height: 0;
+    transition: .8s;
+    margin: 0px 20px 20px 0px;
     position: relative;
+
 }
 
 .box>img {
-    width: 200%;
-    height: calc(100% - 10vh);
+    width: 225%;
+    height: calc(150% - 5vh);
     object-fit: cover;
-    transition: .5s;
+    transition: .8s;
 }
 
 .box>a {
@@ -89,7 +99,7 @@ a:visited {
 }
 
 .box:hover {
-    flex: 1 1 30%;
+    flex: 1 1 20%;
 }
 
 .box:hover>img {
@@ -98,13 +108,10 @@ a:visited {
 }
 
 .box:hover>a {
-    opacity: 1;
+    opacity: 90%;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 @media only screen and (max-width:769px) {
     .container .box {
